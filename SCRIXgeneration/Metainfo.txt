@@ -1,0 +1,17 @@
+Name of Quantlet : SCRIXgeneration
+
+Published in : Unpublished; SCRIX
+
+Description : 'Generate SCRIX'
+
+Keywords : 'CRIX, SCRIX, index, cryptocurrency, crypto'
+
+See also : 'SCRIXplotsAndEvaluation'
+
+Author : Lam Tuyen Nguyen, Wee Song Chua, Simon Trimborn
+
+Submitted : Wed, Aug 17 2016 by Wee Song Chua
+
+Datafile : crix.RData, crix_numb_const.RData, cryptos.RData, market.RData, price.RData, tmi.RData, volume.RData
+
+Example: Index data for the chosen index.
