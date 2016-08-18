@@ -121,6 +121,7 @@ for (i in 1:( length(month1Index) - tempInd ) ){
 #                              cryptos_pos[[i]][j] ],0.95, method="modified" ) 
 #     if(is.na(tempEst)){tempEst=quantile(returnTrim[ 
 #       (month1Index[k] - roll + 1):(month1Index[k] - 1),cryptos_pos[[i]][j] ],0.05)}
+#     templist[[i]][j] = tempEst
 #     ###############################################################################
     
 #     # using CF for sharpe ratio #####################################################
@@ -144,6 +145,7 @@ for (i in 1:( length(month1Index) - tempInd ) ){
 #           (month1Index[k] - roll + 1):(month1Index[k] - 1),
 #           cryptos_pos[[i]][j] ])/tempDen
 #       }}
+#     templist[[i]][j] = tempEst
 #     ##############################################################################
   }
 }
