@@ -76,7 +76,7 @@ lines(scrix_equalweight, type='l',col="red", lwd=1)
 lines(scrix_var_return, type='l',col="blue", lwd=1)
 lines(scrix_es_return, type='l',col="forestgreen", lwd=1)
 # lines(scrix_sr_var, type='l',col="purple", lwd=1)
-# lines(scrix_sr_es, type='l',col="orange", lwd=1)
+# lines(scrix_sr_es, type='l',col="burlywood4", lwd=1)
 lines(scrix_markport, type='l',col="chocolate", lwd=1)
 par(op) ## reset margin
 
@@ -89,7 +89,7 @@ par(op) ## reset margin
 # lines(scrix_var_return, type='l',col="blue", lwd=1)
 # lines(scrix_es_return, type='l',col="forestgreen", lwd=1)
 # lines(scrix_CFVaR_return, type='l',col="purple", lwd=1)
-# lines(scrix_CFes_return, type='l',col="orange", lwd=1)
+# lines(scrix_CFes_return, type='l',col="burlywood4", lwd=1)
 
 # ### SR ###
 # lb3       = min(crix,scrix_sr_var,scrix_sr_es,scrix_SR_CFes_return,scrix_SR_CFVaR_return)
@@ -100,7 +100,7 @@ par(op) ## reset margin
 # lines(scrix_sr_var, type='l',col="blue", lwd=1)
 # lines(scrix_sr_es, type='l',col="forestgreen", lwd=1)
 # lines(scrix_SR_CFVaR_return, type='l',col="purple", lwd=1)
-# lines(scrix_SR_CFes_return, type='l',col="orange", lwd=1)
+# lines(scrix_SR_CFes_return, type='l',col="burlywood4", lwd=1)
 
 #################### loss comparison ii: MSE, MDA #######################
 scrixdata       = list()
